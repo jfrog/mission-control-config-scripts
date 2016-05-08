@@ -20,3 +20,4 @@ localRepository() {
     syncDeletes  false
     syncProperties  true
   }
+}
