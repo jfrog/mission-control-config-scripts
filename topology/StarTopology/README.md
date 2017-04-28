@@ -21,36 +21,36 @@ Step 1: open mission-control configuration script editor
 
 Create new Script -> paste the `CreateLocalRepo` script in the editor. Save
 
-![alt tag](https://github.com/shanilevy/mission-control-config-scripts/blob/master/Topology/Star Topology/screenshots/CreateLocalRepoScript.jpg)
+![alt tag](screenshots/CreateLocalRepoScript.jpg)
 
 Create a new script -> paste the `CreateMultiPushReplication` script in the editor. Save
 
-![alt tag](https://github.com/shanilevy/mission-control-config-scripts/blob/master/Topology/Star Topology/screenshots/CreateReplicationScript.jpg)
+![alt tag](screenshots/CreateReplicationScript.jpg)
 
 Step 2: select repositories / new repository / select instances - select replication source instance and destination instances
 
-![alt tag](https://github.com/shanilevy/mission-control-config-scripts/blob/master/Topology/Star Topology/screenshots/NewRepo0.jpg)
+![alt tag](screenshots/NewRepo0.jpg)
 
 Step 3: in apply scripts - select the `CreateLocalRepo` script and the instances. Click "add" 
 
-![alt tag](https://github.com/shanilevy/mission-control-config-scripts/blob/master/Topology/Star Topology/screenshots/NewRepo1.jpg)
+![alt tag](screenshots/NewRepo1.jpg)
 
-![alt tag](https://github.com/shanilevy/mission-control-config-scripts/blob/master/Topology/Star Topology/screenshots/NewRepo2.jpg)
+![alt tag](screenshots/NewRepo2.jpg)
 
 Step 4: in apply scripts - select the `CreateMultiPushReplication` script and select only the source. Click "add" 
 
-![alt tag](https://github.com/shanilevy/mission-control-config-scripts/blob/master/Topology/Star Topology/screenshots/NewRepo3.jpg)
+![alt tag](screenshots/NewRepo3.jpg)
 
-![alt tag](https://github.com/shanilevy/mission-control-config-scripts/blob/master/Topology/Star Topology/screenshots/NewRepo4.jpg)
+![alt tag](screenshots/NewRepo4.jpg)
 
 Step 5: in user input type the name of the local repository to create on all instances ('local-amsterdam')
 
-![alt tag](https://github.com/shanilevy/mission-control-config-scripts/blob/master/Topology/Star Topology/screenshots/NewRepo5.jpg)
+![alt tag](screenshots/NewRepo5.jpg)
 
 Step 6: summary 
 
-![alt tag](https://github.com/shanilevy/mission-control-config-scripts/blob/master/Topology/Star Topology/screenshots/NewRepo6.jpg)
+![alt tag](screenshots/NewRepo6.jpg)
 
 This is how it should look like in the mission-control map:
 
-![alt tag](https://github.com/shanilevy/mission-control-config-scripts/blob/master/Topology/Star Topology/screenshots/StarMap.jpg)
+![alt tag](screenshots/StarMap.jpg)
